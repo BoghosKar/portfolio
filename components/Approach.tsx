@@ -7,7 +7,7 @@ const Approach = () => {
   return (
     <section className="w-full py-20">
       <h1 className="heading">
-        My <span className="text-purple">approach</span>
+        Our <span className="text-purple">approach</span>
       </h1>
       {/* remove bg-white dark:bg-black */}
       <div className="my-20 flex flex-col lg:flex-row items-center justify-center w-full gap-4">
@@ -15,8 +15,8 @@ const Approach = () => {
         <Card
           title="Planning & Strategy"
           icon={<AceternityIcon order="Phase 1" />}
-          des="We'll collaborate to map out your website's goals, target audience, 
-          and key functionalities. We'll discuss things like site structure, 
+          des="We'll collaborate to map out your goals, target audience, 
+          and key targets. We'll discuss things like the complete strategy, 
           navigation, and content requirements."
         >
           <CanvasRevealEffect
@@ -26,10 +26,9 @@ const Approach = () => {
           />
         </Card>
         <Card
-          title="Development & Progress Update"
+          title="Progress Update"
           icon={<AceternityIcon order="Phase 2" />}
-          des="Once we agree on the plan, I cue my lofi playlist and dive into
-          coding. From initial sketches to polished code, I keep you updated
+          des="Once we agree on the plan, We will instantly get to work and execute our strategy. From initial ideas to released content, We will keep you updated
           every step of the way."
         >
           <CanvasRevealEffect
@@ -48,11 +47,10 @@ const Approach = () => {
           {/* <div className="absolute inset-0 [mask-image:radial-gradient(400px_at_center,white,transparent)] bg-black/50 dark:bg-black/90" /> */}
         </Card>
         <Card
-          title="Development & Launch"
+          title="Delivering results"
           icon={<AceternityIcon order="Phase 3" />}
-          des="This is where the magic happens! Based on the approved design, 
-          I'll translate everything into functional code, building your website
-          from the ground up."
+          des="This is where the magic happens! Based on the approved strategy, 
+          We'll translate your ideas to amazing content, scaling your socials from the ground up."
         >
           <CanvasRevealEffect
             animationSpeed={3}
@@ -186,17 +184,5 @@ const AceternityIcon = ({ order }: { order: string }) => {
 };
 
 export const Icon = ({ className, ...rest }: any) => {
-  return (
-    <svg
-      xmlns="http://www.w3.org/2000/svg"
-      fill="none"
-      viewBox="0 0 24 24"
-      strokeWidth="1.5"
-      stroke="currentColor"
-      className={className}
-      {...rest}
-    >
-      <path strokeLinecap="round" strokeLinejoin="round" d="M12 6v12m6-6H6" />
-    </svg>
-  );
+  return <></>;
 };
